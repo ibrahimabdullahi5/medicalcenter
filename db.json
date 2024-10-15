@@ -1,0 +1,20 @@
+{
+  "patients": [
+    {
+      "id": 1728990182014,
+      "name": "abdi",
+      "email": "abdi@",
+      "phone": "23627467",
+      "address": "231",
+      "department": ""
+    },
+    {
+      "id": 1728990243168,
+      "name": "ibro",
+      "email": "ibro@gmail.com",
+      "phone": "1727737",
+      "address": "345",
+      "department": "radiology"
+    }
+  ]
+}

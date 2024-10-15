@@ -1,0 +1,33 @@
+.clinic-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .clinic-schedule th, .clinic-schedule td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .clinic-schedule th {
+    color: white;
+    background-color: #0077ff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .clinic-schedule tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .clinic-schedule tr:hover {
+    background-color: #dddddd;
+  }
+  
+  .clinic-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  

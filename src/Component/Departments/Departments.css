@@ -1,0 +1,73 @@
+/* Style for the overall container */
+.about-us-container {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.overlay{
+  background-image: url('https://www.materkenya.com/images/bread-bg.jpg');
+  height: 200px;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+  margin-top: 100px;
+}
+
+/* Container for all department cards */
+.departments-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual department card styling */
+.department-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+/* Image styling inside the card */
+.department-image {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Title for each department */
+.department-card h3 {
+  font-size: 1.5rem;
+  color: #1e7e34;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Description for each department */
+.department-card p {
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.5;
+}
+
+/* Hover effect for department cards */
+.department-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .departments-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
