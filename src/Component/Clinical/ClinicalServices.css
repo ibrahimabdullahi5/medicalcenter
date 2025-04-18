@@ -1,0 +1,44 @@
+.clinical-services {
+    text-align: center;
+    margin: 20px auto;
+    border: brown solid 5px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-list {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #c57f2b;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-item.active {
+    background-color: #a00000;
+    color: white;
+  }
+  
+  .service-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .service-name {
+    font-weight: bold;
+  }
+  

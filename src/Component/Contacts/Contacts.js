@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './Contact.css';
+// import VisitingHours from '../Visiting/VisitingHours';
 
-const Contacts = () => {
+const Contacts  = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -63,7 +64,7 @@ const Contacts = () => {
   return (
     <div className="contact-form">
       <form onSubmit={handleSubmit}>
-        <h2>Contact me</h2>
+        <h2>Contact Form</h2>
         <div className="input-box">
           <label htmlFor="name">Name</label>
           <input
@@ -125,10 +126,14 @@ const Contacts = () => {
           <option value="accidents-emergency">Accidents & Emergency</option>
         </select>
 
-        <button className="button" type="submit">Submit</button>
-      </form>
+        <button className="button" type="submit">Submit</button> 
+        {/* < VisitingHours/> */}
+      </form> 
+    
     </div>
+     
   );
+
 };
 
 export default Contacts;

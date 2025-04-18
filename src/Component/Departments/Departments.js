@@ -1,5 +1,6 @@
 import React from 'react';
 import './Departments.css';
+ 
 
 const Departments = () => {
   const departmentsData = [

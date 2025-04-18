@@ -6,7 +6,7 @@ body {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .background-image {
@@ -300,7 +300,7 @@ p {
   
   .values {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
   }
   

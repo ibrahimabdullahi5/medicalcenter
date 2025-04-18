@@ -1,0 +1,75 @@
+.ent-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .ent-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .ent-banner-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ent-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .ent-banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .ent-banner-text p {
+    font-size: 1rem;
+  }
+  
+  .ent-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .ent-content h2 {
+    color: #b80000;
+  }
+  
+
+
+  /* General container styling */
+.card {
+    border: 1px solid #ddd; /* Adds a subtle border */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    margin: 16px; /* Adds space between cards */
+    overflow: hidden; /* Ensures child elements don't overflow the card */
+    width: 500pxn; /* Sets a fixed width for the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds smooth hover effect */
+  }
+  
+  /* Styling for images within cards */
+  .card img {
+    width: 100%; /* Makes the image take up the full width of the card */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures there is no extra space below the image */
+  }
+  
+  /* Hover effect for the card */
+  .card:hover {
+    transform: translateY(-8px); /* Lifts the card slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensifies the shadow */
+  }
+  
+  /* Optional: Flexbox for arranging cards */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if necessary */
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 16px; /* Adds space between cards */
+  }
+  

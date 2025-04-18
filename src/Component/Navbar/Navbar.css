@@ -1,17 +1,17 @@
 .navbar {
     width: 100%;
-    background-color: green;
+    background-color: white;
     height: 150px;
 }
 
 .navbar ul {
-    float: left;
+    /* float: left; */
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     height: 100%; /* Align items vertically */
     padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    margin-right: 20px; /* Remove default margin */
 }
 
 .navbar ul li {
@@ -22,8 +22,8 @@
 }
 
 .navbar ul li a {
+    color: black;
     text-decoration: none;
-    color: #fff;
     font-weight: bold;
     transition: 0.4s ease;
 }

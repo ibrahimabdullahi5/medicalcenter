@@ -1,12 +1,16 @@
 import React from 'react';
 import './Home.css'; // Import CSS for styling
 import Carousel from './Carousel';
+import ClinicalServices from '../Clinical/ClinicalServices';
+import Services from '../Services/Services';
+import Management from '../Management/Management';
 
 
 const Home = () => {
     return (
         <div>
           <Carousel />
+          <ClinicalServices/>
 <div className="info-cards-container">
       {/* Emergency Cases Card */}
       <div className="card">
@@ -146,6 +150,8 @@ const Home = () => {
       </div>
     </section>
 
+<Services/>
+<Management/>
 
    
     

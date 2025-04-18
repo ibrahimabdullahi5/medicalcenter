@@ -1,6 +1,6 @@
 // src/components/Carousel.js
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react'; // Importing Swiper components
+import { Swiper, SwiperSlide } from 'swiper/react'; //importing swiper components
 import 'swiper/css'; // Swiper core styles
 import 'swiper/css/navigation'; // Navigation styles
 import 'swiper/css/pagination'; // Pagination styles
